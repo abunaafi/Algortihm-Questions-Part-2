@@ -1,3 +1,5 @@
+/// my first 7 kyu question
+
 const getEvenNumbers=(numbersArray)=>{
     // filter out the odd numbers
     let result = []
@@ -7,6 +9,5 @@ const getEvenNumbers=(numbersArray)=>{
     }
       return results
     }
-    
   }
   
