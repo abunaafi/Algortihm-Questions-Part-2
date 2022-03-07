@@ -10,3 +10,6 @@ let findAverage = function (nums) {
     let mean = result/nums.length; 
     return mean
   }
+
+// below is one solution from codewars that i need to know , i have been seeing it left right center
+  //const findAverage = nums => nums.reduce((a, b) => a + b) / nums.length;
