@@ -8,7 +8,11 @@ const oddOrEven =(array) => {
    return result % 2 === 0 ? 'even' : 'odd'
  }
  
- 
+ // an easier method below from the solutions 
+ const oddOrEven = (arr) => {
+    return arr.reduce((a,b)=>a+b,0) % 2 ? 'odd' : 'even';
+  }
+  
  
  
  
